@@ -1,0 +1,13 @@
+﻿<Window x:Class="ThangLong_COFFEE.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThangLong_COFFEE"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800"
+        WindowStartupLocation="CenterOwner">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock FontSize="30" Text="Kết nối máy chủ thành công"/>
+    </Grid>
+</Window>
