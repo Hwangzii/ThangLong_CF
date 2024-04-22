@@ -23,5 +23,12 @@ namespace ThangLong_COFFEE
         {
             InitializeComponent();
         }
+
+        //Ngọc: Code nút đăng nhập.
+        private void dangNhapBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TaiKhoanDAO taiKhoanDAO = new TaiKhoanDAO();
+            taiKhoanDAO.dangNhapFunc(tenTKTxtBox, matKhauPswBox);
+        }
     }
 }
